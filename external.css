@@ -1,0 +1,37 @@
+body {
+    background-color: tan;
+}
+
+#bar {
+    text-align: center;
+    color: white;
+    background-color: #7c7c7c;
+    padding: 10px;
+    width: 98%;
+    font-family: cursive;
+    clear: both;
+}
+
+#main-nav {
+    background-color: blue;
+    text-align: left;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover{
+    background-color: #7c7c7c;
+    color: white;
+}
+
+
+#main-nav ul li {
+    list-style-type: nothing;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
