@@ -10,6 +10,7 @@ body {
     width: 98%;
     font-family: cursive;
     clear: both;
+    margin: 5px;
 }
 
 #main-nav {
@@ -43,19 +44,22 @@ body {
     padding: 5px;
     border-radius: 15px;
     margin: 5px;
-}
-
-.content-box {
     width: 70%;
     float: left;
     margin: 0%;
 }
 
+
 #rules {
-    text-align: center;
     background-color: bisque;
     float: right;
     width: 25%;
     margin-right: 10px;
     border: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+#rules:hover {
+    background-color: blueviolet;
 }
