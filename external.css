@@ -35,3 +35,27 @@ body {
     padding: 10px;
     color: white;
 }
+
+.content-box {
+    background-color: turquoise;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.content-box {
+    width: 70%;
+    float: left;
+    margin: 0%;
+}
+
+#rules {
+    text-align: center;
+    background-color: bisque;
+    float: right;
+    width: 25%;
+    margin-right: 10px;
+    border: 2px solid black;
+}
