@@ -1,0 +1,70 @@
+body {
+    background-color: tan;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#bar {
+    text-align: center;
+    color: white;
+    background-color: #7c7c7c;
+    padding: 10px;
+    width: 98%;
+    font-family: cursive;
+    clear: both;
+    margin: 5px;
+}
+
+#main-nav {
+    background-color: blue;
+    text-align: left;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav li:hover{
+    background-color: #7c7c7c;
+    color: white;
+}
+
+
+#main-nav ul li a {
+    list-style-type: nothing;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.content-box {
+    background-color: turquoise;
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    width: 70%;
+    float: left;
+}
+
+#rules {
+    background-color: bisque;
+    float: right;
+    width: 25%;
+    margin-right: 10px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#rules:hover {
+    background-color: blueviolet;
+}
+
+
+input[type="text"]:focus {
+    width: 300px;
+}
