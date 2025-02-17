@@ -30,7 +30,7 @@ body {
 }
 
 
-#main-nav ul li {
+#main-nav ul li a {
     list-style-type: nothing;
     display: inline-block;
     text-align: center;
