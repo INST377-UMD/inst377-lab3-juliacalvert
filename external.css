@@ -1,5 +1,6 @@
 body {
     background-color: tan;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #bar {
@@ -46,9 +47,7 @@ body {
     margin: 5px;
     width: 70%;
     float: left;
-    margin: 0%;
 }
-
 
 #rules {
     background-color: bisque;
@@ -58,8 +57,14 @@ body {
     border: 2px solid black;
     margin-bottom: 10px;
     border-radius: 15px;
+    padding: 5px;
 }
 
 #rules:hover {
     background-color: blueviolet;
+}
+
+
+input[type="text"]:focus {
+    width: 300px;
 }
